@@ -13,6 +13,7 @@
       ./rebuild-config.nix
       ./graphics-config.nix
       ./hyprland-config.nix
+      ./waybar-config.nix
     ];
 
   # Bootloader.
