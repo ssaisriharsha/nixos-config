@@ -122,6 +122,7 @@
     onlyoffice-bin
     jetbrains.idea-ultimate
     python310
+    numlockx
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
