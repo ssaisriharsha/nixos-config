@@ -11,6 +11,7 @@
       ./hardware-configuration.nix
       ./gitconfig.nix
       ./rebuild-config.nix
+      ./graphics-config.nix
     ];
 
   # Bootloader.
