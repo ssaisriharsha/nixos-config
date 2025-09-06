@@ -10,12 +10,13 @@
   # Helpful packages for the default hyprland dots
   environment.systemPackages = with pkgs; [
     hyprland
-    kitty         # default hypr config often expects it (you can use your terminal)
+         # default hypr config often expects it (you can use your terminal)
     waybar
     mako          # notifications
     wl-clipboard
     grim
     slurp
+    wofi
   ];
 
   # XDG portals — make sure portals are available
