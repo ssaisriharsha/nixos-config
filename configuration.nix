@@ -9,7 +9,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      /configs/gitconfig.nix
+      ./gitconfig.nix
+      ./rebuild-config.nix
     ];
 
   # Bootloader.
@@ -118,6 +119,7 @@
     efibootmgr
     onlyoffice-bin
     jetbrains.idea-ultimate
+    python310
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
