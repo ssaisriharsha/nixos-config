@@ -12,6 +12,7 @@
       ./gitconfig.nix
       ./rebuild-config.nix
       ./graphics-config.nix
+      ./hyprland-config.nix
     ];
 
   # Bootloader.
