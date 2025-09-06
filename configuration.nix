@@ -11,9 +11,9 @@
       ./hardware-configuration.nix
       ./gitconfig.nix
       ./rebuild-config.nix
-      ./graphics-config.nix
-      ./hyprland-config.nix
-      ./waybar-config.nix
+#      ./graphics-config.nix
+#      ./hyprland-config.nix
+#      ./waybar-config.nix
     ];
 
   # Bootloader.
@@ -123,7 +123,7 @@
     onlyoffice-bin
     jetbrains.idea-ultimate
     python310
-    numlockx
+#    numlockx
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -152,8 +152,8 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "25.05"; # Did you read the comment?
-	fonts.packages = with pkgs; [
-  	  nerd-fonts.jetbrains-mono
-	];
+#	fonts.packages = with pkgs; [
+#  	  nerd-fonts.jetbrains-mono
+#	];
 
 }
